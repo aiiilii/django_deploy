@@ -1,0 +1,22 @@
+.header_bar {
+    margin: 10px;
+    border-bottom: 1px solid gray;
+}
+
+    .header_bar h2 {
+        display: inline-block;
+    }
+    .header_bar h5 {
+        display: inline-block;
+        margin-left: 600px;
+    }
+.add_fav {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 250px 10px 10px;
+}
+.all_books {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 150px;
+}
