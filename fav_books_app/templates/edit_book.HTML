@@ -57,8 +57,8 @@
             <div class="add_fav">
                 <h2>{{ book.title }}</h2>
                 <p>Added by: {{ book.uploaded_by.first_name }} {{ book.uploaded_by.last_name }}</p>
-                <p>Added on: {{ book.created_by }}</p>
-                <p>Last updated on: {{ book.updated_by }}</p>
+                <p>Added on: {{ book.created_at }}</p>
+                <p>Last updated on: {{ book.updated_at }}</p>
                 <p>Description: {{ book.desc }}</p>
                 <a href="/welcome">Back</a>
             </div>

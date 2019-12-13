@@ -13,4 +13,5 @@ urlpatterns = [
     path('book/<int:bookId>/edit', views.read_book),
     path('book/<int:bookId>/un_fav', views.un_fav),
     path('book/<int:bookId>/fav_inside', views.fav_inside),
+    #path('<catch all>')
 ]
